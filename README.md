@@ -2,13 +2,19 @@
 
 ## Viewing the demo files
 
-In order to preview the demo files, you'll need to install the `serve` npm package.
+The first step is to download the project files or clone this repo. Install `git` first if you do not already have it installed. Then, in the desired location, run in a terminal:
+
+```bash
+git clone git@github.com:michaelrevans/poll-widget.git
+```
+
+In order to preview the demo files, you'll need to install the `serve` npm package. In a terminal run:
 
 ```bash
 npm i -g serve
 ```
 
-and then run the `serve` command with the `build` directory as the only argument.
+and then run the `serve` command with the `build` directory as the only argument. In a terminal run:
 
 ```bash
 serve build # no other flags are necessary
@@ -19,7 +25,7 @@ This will open up a local server where the contents of the `build` directory wil
 
 ## Running tests locally
 
-The full suite of tests can be run locally with:
+The full suite of tests can be run locally in a terminal with:
 
 ```bash
 npm test # or yarn test
