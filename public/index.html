@@ -25,10 +25,116 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      .poll-wrapper {
+        display: flex;
+        gap: 20px;
+      }
+      .poll {
+        flex: 1;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a mauris a
+        sem elementum lacinia non in augue. Aliquam erat volutpat. Integer
+        porttitor gravida arcu, quis interdum sapien gravida id. Quisque vel
+        viverra tellus. Donec ante lacus, tempor fermentum lorem in, consequat
+        molestie lectus. Vivamus eu nisl eu mauris suscipit pretium. Donec eu
+        dignissim lectus. Donec non libero eu nunc luctus iaculis. Donec aliquet
+        id mauris id blandit. Ut ultricies ut turpis non sollicitudin. Aliquam
+        placerat lobortis mi non convallis.
+      </p>
+      <p>
+        Nulla nec facilisis dolor. Nam mattis dui ac ultricies suscipit.
+        Maecenas condimentum dignissim congue. Vestibulum iaculis convallis
+        lorem, ut vehicula mauris malesuada et. Aenean at augue ut odio vehicula
+        posuere in in libero. Donec varius sapien eget dui luctus, dignissim
+        fermentum lectus tincidunt. In sed tincidunt neque, sed aliquet turpis.
+        Fusce ac eros in lectus varius porta ut ac felis. Nam varius dui id
+        hendrerit pulvinar. Integer vestibulum vestibulum facilisis. Praesent
+        lobortis vulputate nunc at porta. Quisque et nisl consequat, tincidunt
+        augue aliquet, posuere eros. Ut sagittis libero eu rutrum interdum.
+      </p>
+      <p>
+        Pellentesque sed nunc eget orci tristique tristique a at sem. Vivamus
+        fermentum est sed tempor fermentum. Morbi id commodo ligula. Mauris a
+        volutpat eros. Cras et imperdiet ante. Donec convallis accumsan nisi id
+        vestibulum. Integer maximus nec nisl et tincidunt. Vivamus elit purus,
+        commodo quis volutpat accumsan, hendrerit imperdiet nibh. Vestibulum
+        molestie sit amet elit eu consectetur. Vestibulum lobortis felis in
+        gravida finibus. Proin non aliquet sem, id porta elit. Etiam facilisis
+        neque vitae nisl tempor pulvinar. Nullam venenatis eget arcu ut
+        pulvinar. Nulla mattis ante ut velit aliquet blandit. Cras porttitor
+        nisi vitae odio tincidunt interdum. Morbi eget ultrices ante.
+      </p>
+      <p>
+        Vivamus congue tincidunt eros a aliquet. Integer ac finibus urna.
+        Vivamus ligula mi, tempus ut leo eget, pharetra dictum odio. Proin
+        imperdiet porttitor commodo. Aliquam a erat vitae ligula aliquam
+        condimentum. Vivamus consequat sollicitudin ligula malesuada gravida.
+        Nunc in purus dignissim, varius lacus sit amet, malesuada dui. Morbi et
+        pellentesque orci. Duis vulputate tellus ac nisi aliquam, vitae
+        facilisis eros luctus.
+      </p>
+    </div>
+    <div class="poll-wrapper">
+      <div
+        class="poll"
+        data-poll-config='{"question": "How are you feeling today?", "answers": ["Pretty good", "Not too bad", "Absolutely terrible"], "id": "foo1234"}'
+      ></div>
+      <div
+        class="poll"
+        data-poll-config='{"question": "Do you support the ban on smoking in bars?", "answers": ["Absolutely, I hate smoking", "Kind of", "Not really, it did not bother me", "Definitely not, I love smoking!"], "id": "bar5678"}'
+      ></div>
+    </div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a mauris a
+        sem elementum lacinia non in augue. Aliquam erat volutpat. Integer
+        porttitor gravida arcu, quis interdum sapien gravida id. Quisque vel
+        viverra tellus. Donec ante lacus, tempor fermentum lorem in, consequat
+        molestie lectus. Vivamus eu nisl eu mauris suscipit pretium. Donec eu
+        dignissim lectus. Donec non libero eu nunc luctus iaculis. Donec aliquet
+        id mauris id blandit. Ut ultricies ut turpis non sollicitudin. Aliquam
+        placerat lobortis mi non convallis.
+      </p>
+      <p>
+        Nulla nec facilisis dolor. Nam mattis dui ac ultricies suscipit.
+        Maecenas condimentum dignissim congue. Vestibulum iaculis convallis
+        lorem, ut vehicula mauris malesuada et. Aenean at augue ut odio vehicula
+        posuere in in libero. Donec varius sapien eget dui luctus, dignissim
+        fermentum lectus tincidunt. In sed tincidunt neque, sed aliquet turpis.
+        Fusce ac eros in lectus varius porta ut ac felis. Nam varius dui id
+        hendrerit pulvinar. Integer vestibulum vestibulum facilisis. Praesent
+        lobortis vulputate nunc at porta. Quisque et nisl consequat, tincidunt
+        augue aliquet, posuere eros. Ut sagittis libero eu rutrum interdum.
+      </p>
+      <p>
+        Pellentesque sed nunc eget orci tristique tristique a at sem. Vivamus
+        fermentum est sed tempor fermentum. Morbi id commodo ligula. Mauris a
+        volutpat eros. Cras et imperdiet ante. Donec convallis accumsan nisi id
+        vestibulum. Integer maximus nec nisl et tincidunt. Vivamus elit purus,
+        commodo quis volutpat accumsan, hendrerit imperdiet nibh. Vestibulum
+        molestie sit amet elit eu consectetur. Vestibulum lobortis felis in
+        gravida finibus. Proin non aliquet sem, id porta elit. Etiam facilisis
+        neque vitae nisl tempor pulvinar. Nullam venenatis eget arcu ut
+        pulvinar. Nulla mattis ante ut velit aliquet blandit. Cras porttitor
+        nisi vitae odio tincidunt interdum. Morbi eget ultrices ante.
+      </p>
+      <p>
+        Vivamus congue tincidunt eros a aliquet. Integer ac finibus urna.
+        Vivamus ligula mi, tempus ut leo eget, pharetra dictum odio. Proin
+        imperdiet porttitor commodo. Aliquam a erat vitae ligula aliquam
+        condimentum. Vivamus consequat sollicitudin ligula malesuada gravida.
+        Nunc in purus dignissim, varius lacus sit amet, malesuada dui. Morbi et
+        pellentesque orci. Duis vulputate tellus ac nisi aliquam, vitae
+        facilisis eros luctus.
+      </p>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
